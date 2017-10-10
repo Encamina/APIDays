@@ -1,0 +1,10 @@
+C:\Temp\taller\bin\Debug\netcoreapp2.0\taller.deps.json
+C:\Temp\taller\bin\Debug\netcoreapp2.0\taller.runtimeconfig.json
+C:\Temp\taller\bin\Debug\netcoreapp2.0\taller.runtimeconfig.dev.json
+C:\Temp\taller\bin\Debug\netcoreapp2.0\taller.dll
+C:\Temp\taller\bin\Debug\netcoreapp2.0\taller.pdb
+C:\Temp\taller\obj\Debug\netcoreapp2.0\taller.csproj.CoreCompileInputs.cache
+C:\Temp\taller\obj\Debug\netcoreapp2.0\taller.AssemblyInfoInputs.cache
+C:\Temp\taller\obj\Debug\netcoreapp2.0\taller.AssemblyInfo.cs
+C:\Temp\taller\obj\Debug\netcoreapp2.0\taller.dll
+C:\Temp\taller\obj\Debug\netcoreapp2.0\taller.pdb
