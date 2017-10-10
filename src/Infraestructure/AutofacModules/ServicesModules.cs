@@ -7,7 +7,7 @@ namespace taller.Infraestructure.AutofacModules
     {
     protected override void Load(ContainerBuilder builder)
     {
-      builder.RegisterType<StarWarsMockService>().As<IStarWarsService>();
+      builder.RegisterType<StarWarsEFService>().As<IStarWarsService>();
     }
   }
 }

@@ -12606,6 +12606,8 @@
       "Autofac.Extensions.DependencyInjection >= 4.2.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.AspNetCore.Mvc.Versioning >= 2.0.0",
+      "Microsoft.EntityFrameworkCore.Tools >= 2.0.0",
+      "Microsoft.EntityFrameworkcore.SqlServer >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -12616,11 +12618,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\taller\\taller.csproj",
+      "projectUniqueName": "C:\\Users\\adiaz\\Documents\\APIDAY\\APIDAY\\APIDays\\src\\taller.csproj",
       "projectName": "taller",
-      "projectPath": "C:\\Temp\\taller\\taller.csproj",
+      "projectPath": "C:\\Users\\adiaz\\Documents\\APIDAY\\APIDAY\\APIDays\\src\\taller.csproj",
       "packagesPath": "C:\\Users\\adiaz\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\taller\\obj\\",
+      "outputPath": "C:\\Users\\adiaz\\Documents\\APIDAY\\APIDAY\\APIDays\\src\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12669,6 +12671,14 @@
             "version": "2.0.0"
           },
           "Microsoft.AspNetCore.Mvc.Versioning": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.EntityFrameworkcore.SqlServer": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
             "version": "2.0.0"
           }

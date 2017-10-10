@@ -16,6 +16,7 @@ using Microsoft.AspNetCore.Authentication;
 using taller.Services;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using taller.Data;
 
 namespace taller
 {
@@ -31,6 +32,8 @@ namespace taller
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<EFCoreWebDemoContext>();
+            services.AddTransient<DbInitializer>();
 
                 services.AddAuthentication(sharedOptions =>
                     {
@@ -46,6 +49,7 @@ namespace taller
          options.DefaultApiVersion = new ApiVersion(1, 0);
      });
            services.AddMvc();
+           services.AddSingleton<IConfiguration>(Configuration);
                  //      services.AddScoped<IStarWarsService,StarWarsMockService>();
         var container = new ContainerBuilder();
         container.Populate(services);
@@ -54,14 +58,14 @@ namespace taller
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env,DbInitializer init)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            app.UseMvc();
+            init.SeedData();
+            app.UseMvc(); 
         }
     }
 }
