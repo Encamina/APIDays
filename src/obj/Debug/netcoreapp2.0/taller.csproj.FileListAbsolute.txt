@@ -28,3 +28,14 @@ C:\Users\adiaz\Documents\APIDAY\APIDAY\APIDays\src\obj\Debug\netcoreapp2.0\talle
 C:\Users\adiaz\Documents\APIDAY\APIDAY\APIDays\src\obj\Debug\netcoreapp2.0\taller.AssemblyInfo.cs
 C:\Users\adiaz\Documents\APIDAY\APIDAY\APIDays\src\obj\Debug\netcoreapp2.0\taller.dll
 C:\Users\adiaz\Documents\APIDAY\APIDAY\APIDays\src\obj\Debug\netcoreapp2.0\taller.pdb
+C:\Users\adiaz\Documents\GitHub\APIDays\src\bin\Debug\netcoreapp2.0\taller.deps.json
+C:\Users\adiaz\Documents\GitHub\APIDays\src\bin\Debug\netcoreapp2.0\taller.runtimeconfig.json
+C:\Users\adiaz\Documents\GitHub\APIDays\src\bin\Debug\netcoreapp2.0\taller.runtimeconfig.dev.json
+C:\Users\adiaz\Documents\GitHub\APIDays\src\bin\Debug\netcoreapp2.0\taller.dll
+C:\Users\adiaz\Documents\GitHub\APIDays\src\bin\Debug\netcoreapp2.0\taller.pdb
+C:\Users\adiaz\Documents\GitHub\APIDays\src\obj\Debug\netcoreapp2.0\taller.csproj.CoreCompileInputs.cache
+C:\Users\adiaz\Documents\GitHub\APIDays\src\obj\Debug\netcoreapp2.0\taller.AssemblyInfoInputs.cache
+C:\Users\adiaz\Documents\GitHub\APIDays\src\obj\Debug\netcoreapp2.0\taller.AssemblyInfo.cs
+C:\Users\adiaz\Documents\GitHub\APIDays\src\obj\Debug\netcoreapp2.0\taller.dll
+C:\Users\adiaz\Documents\GitHub\APIDays\src\obj\Debug\netcoreapp2.0\taller.pdb
+C:\Users\adiaz\Documents\GitHub\APIDays\src\obj\Debug\netcoreapp2.0\taller.csprojResolveAssemblyReference.cache
