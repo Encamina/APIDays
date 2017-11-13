@@ -34,18 +34,13 @@ namespace taller
           config.AddJsonFile("appsetings.json", true)
           .AddJsonFile($"appsettings.{env.EnvironmentName}.json", true);
           config.AddEnvironmentVariables();
- 
-
-        })
+         })
         .ConfigureLogging((hostingContext,logging)=> {
           Log.Logger = new LoggerConfiguration()
           .MinimumLevel.Verbose()
           .WriteTo.ColoredConsole()
           .CreateLogger();
-
           logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
-          //logging.AddDebug();
-          //logging.AddConsole();
           logging.AddSerilog(Log.Logger);
         }).UseStartup<Startup>()
             .Build(); 
